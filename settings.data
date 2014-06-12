@@ -1,0 +1,73 @@
+ApiVersion=1.0
+
+[BG:#EEEEEE]
+Window();
+
+[Border:1, BG:#DDDDDD, FG:#000000]
+Banner("medHUD.png", auto, normal);
+
+[Name:Background, Default:Purple]
+GlobalComboBox("Background", "Background")
+{
+    Purple
+    Energy
+}
+
+#if Background == "Purple"
+{
+    Copy("materials\console\background_upward - Purple.vtf", "materials\console\background_upward.vtf");
+    Copy("materials\console\background_upward2 - Purple.vtf", "materials\console\background_upward2.vtf"");
+    Copy("materials\console\background_upward_widescreen - Purple.vtf", "materials\console\background_upward_widescreen.vtf"");
+    Copy("materials\console\background_upward_widescreen2 - Purple.vtf", "materials\console\background_upward_widescreen2.vtf"");
+}   
+    
+#if Background == "Energy"
+{
+    Copy("materials\console\background_upward - Energy.vtf", "materials\console\background_upward.vtf");
+    Copy("materials\console\background_upward2 - Energy.vtf", "materials\console\background_upward2.vtf"");
+    Copy("materials\console\background_upward_widescreen - Energy.vtf", "materials\console\background_upward_widescreen.vtf"");
+    Copy("materials\console\background_upward_widescreen2 - Energy.vtf", "materials\console\background_upward_widescreen2.vtf"");
+}
+
+[Name:Enemy Uber Bar, Default:No Bar]
+GlobalComboBox("Enemy Uber Bar", "Enemy Uber Bar")
+{
+		Yes
+		No
+}
+
+#if Enemy Uber Bar == "Enemy Uber Bar"
+{
+    Copy("scripts\hudlayout - Enemy Uber Bar.res", "scripts\hudlayout.res");
+    Copy("scripts\HudAnimations_tf - Enemy Uber Bar.txt", "scripts\HudAnimations_tf.txt");
+}   
+    
+#if Enemy Uber Bar == "No Bar"
+{
+    Copy("scripts\hudlayout.res - No Bar", "scripts\hudlayout.res");
+    Copy("scripts\HudAnimations_tf - No Bar.txt", "scripts\HudAnimations_tf.txt"");
+}
+
+[Portion:2]
+[Name:Chat, Default:Upper]
+DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat");
+
+[Portion:1]
+[Name:Scoreboard, Default:Pub]
+DynamicFileSwitcher("resource\ui\ScoreBoard.res", "Scoreboard", 1);
+
+[Portion:1]
+[Name:Über Bar, Default:Crosshair]
+DynamicFileSwitcher("resource\ui\HudMedicCharge.res", "Über Bar", 1);
+
+[Portion:2]
+[Name:Server Time, Default:Default]
+DynamicFileSwitcher("resource\ui\HudObjectiveTimePanel.res", "Server Time", 1);
+
+[Portion:2]
+[Name:Target IDs, Default:Goat]
+DynamicFileSwitcher("resource\ui\SpectatorGUIHealth.res", "Target IDs", 1);
+
+
+
+
