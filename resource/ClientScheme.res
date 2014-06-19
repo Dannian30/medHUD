@@ -30,8 +30,8 @@ Scheme
         
         //The two is for the flicker for buff/hurt. Make the two you choose be close in color.
         "Health Normal"                         "235 226 202 255"
-        "Health Buff"                           "90 210 39 255"
-        "Health Buff2"                          "0 255 0 255"
+        "Health Buff"                           "0 180 255 255"
+        "Health Buff2"                          "0 255 255 255"
         "Health Hurt"                           "255 40 29 255"
         "Health Hurt2"                          "170 0 0 255"
         

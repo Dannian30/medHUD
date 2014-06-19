@@ -4,8 +4,8 @@ Damage Lines|Yes Damage Lines
 Time Limit|Default
 Server Time|Default
 Health Cross|Default
-Background|Purple
-Target IDs|Goat
+Background|Energy
+Target IDs|Plain
 Killfeed|Default
 Chat|Upper
 Enemy Medic|True

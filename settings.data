@@ -6,7 +6,7 @@ Window();
 [Border:1, BG:#DDDDDD, FG:#000000]
 Banner("medHUD.png", auto, normal);
 
-[Name:Background, Default:Purple]
+[Name:Background, Default:Energy]
 GlobalComboBox("Background", "Background")
 {
     Purple
@@ -65,7 +65,7 @@ DynamicFileSwitcher("resource\ui\HudMedicCharge.res", "Über Bar", 1);
 DynamicFileSwitcher("resource\ui\HudObjectiveTimePanel.res", "Server Time", 1);
 
 [Portion:2]
-[Name:Target IDs, Default:Goat]
+[Name:Target IDs, Default:Plain]
 DynamicFileSwitcher("resource\ui\SpectatorGUIHealth.res", "Target IDs", 1);
 
 

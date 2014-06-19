@@ -141,7 +141,7 @@
         "textAlignment"     "west"
         "dulltext"      "0"
         "brighttext"        "0"
-        "fgcolor_override"       "Health Buff"
+        "fgcolor_override"       "Health Buff2"
         
     }
     "AmmoIcon"

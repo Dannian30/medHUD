@@ -1,5 +1,12 @@
 
-CURRENT VERSION: v13
+CURRENT VERSION: v14
+
+v14  - med took 19
+-Fixed HUD for Love & War Update
+-Blue for overheal? Let me know what you think!
+-Removed black crosshair dot being on by defualt
+-Energy background is default
+-Plain TargetID is default
 
 v13 - bread soon
 -Bar for enemy uber thing is now able to be disabled for real now. If you want an alternative, I recommend Admirable's one http://teamfortress.tv/thread/17883/uber-tracking-hud-mod/?page=2#41
