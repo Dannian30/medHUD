@@ -298,5 +298,20 @@
         "image"         "../vgui/marked_for_death"
         "fgcolor"       "TanDark"
     }
+    "PlayerStatus_Parachute"
+    {
+        "ControlName"        "ImagePanel"
+        "fieldName"          "PlayerStatus_Parachute"
+        "xpos"               "100"
+        "ypos"               "0"
+        "zpos"               "7"
+        "wide"               "31"
+        "tall"               "31"
+        "visible"            "1"
+        "enabled"            "1"
+        "scaleImage"         "1"        
+        "image"              "../hud_parachute_active"
+        "fgcolor"            "TanDark"
+    }
 }
 

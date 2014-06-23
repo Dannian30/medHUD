@@ -29,6 +29,32 @@ GlobalComboBox("Background", "Background")
     Copy("materials\console\background_upward_widescreen2 - Energy.vtf", "materials\console\background_upward_widescreen2.vtf"");
 }
 
+[Name:Target ID, Default:Cross]
+GlobalComboBox("Target ID", "Target ID")
+{
+		Plain
+		Cross
+		Goat
+}
+
+#if Target ID == "Plain"
+{
+    Copy("resource\ui\TargetID - Plain.res", "resource\ui\TargetID.res");
+	Copy("resource\ui\SpectatorGUIHealth - Plain.res", "resource\ui\SpectatorGUIHealth.res");
+} 
+
+#if Target ID == "Cross"
+{
+    Copy("resource\ui\TargetID - Cross.res", "resource\ui\TargetID.res");
+	Copy("resource\ui\SpectatorGUIHealth - Cross.res", "resource\ui\SpectatorGUIHealth.res");
+}   
+
+#if Target ID == "Goat"
+{
+    Copy("resource\ui\TargetID - Goat.res", "resource\ui\TargetID.res");
+	Copy("resource\ui\SpectatorGUIHealth - Goat.res", "resource\ui\SpectatorGUIHealth.res");
+}   
+
 [Name:Enemy Uber Bar, Default:No Bar]
 GlobalComboBox("Enemy Uber Bar", "Enemy Uber Bar")
 {
@@ -64,9 +90,7 @@ DynamicFileSwitcher("resource\ui\HudMedicCharge.res", "Über Bar", 1);
 [Name:Server Time, Default:Default]
 DynamicFileSwitcher("resource\ui\HudObjectiveTimePanel.res", "Server Time", 1);
 
-[Portion:2]
-[Name:Target IDs, Default:Plain]
-DynamicFileSwitcher("resource\ui\SpectatorGUIHealth.res", "Target IDs", 1);
+
 
 
 

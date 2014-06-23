@@ -137,8 +137,8 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicDot"
-        "visible"       "0"
-        "enabled"       "0"
+        "visible"       "1"
+        "enabled"       "1"
         "zpos"          "-2"
 
         "xpos"          "c-107"
@@ -157,8 +157,8 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicDotOut"
-        "visible"       "0"
-        "enabled"       "0"
+        "visible"       "1"
+        "enabled"       "1"
         "zpos"          "-2"
 
         "xpos"          "c-107"
@@ -1630,9 +1630,9 @@
         "tall"                  "200"
         "visible"               "1"
         "enabled"               "1"
-        "separator_width"       "-1" // distance between the icons (including their backgrounds)
-        "separator_height"      "-1"
-        "height_offset"         "1" [$WIN32] // distance from the bottom of the panel
+        "separator_width"       "2" // distance between the icons (including their backgrounds)
+        "separator_height"      "10"
+        "height_offset"         "-35" [$WIN32] // distance from the bottom of the panel
     }
 
     HudCapturePanel

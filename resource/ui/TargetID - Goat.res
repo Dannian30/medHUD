@@ -1,15 +1,29 @@
 "Resource/UI/TargetID.res"
 {
-    
+    "TargetBG"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "TargetBG"
+        "xpos"          "0"
+        "ypos"          "13"
+        "zpos"          "-1"
+        "wide"          "640"
+        "tall"          "14"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "HUDDark"
+    }
     "TargetIDBG"
     {
         "ControlName"       "CTFImagePanel"
         "fieldName"     "TargetIDBG"
-        "xpos"          "0"
-        "ypos"          "60"
+        "xpos"          "9999"
+        "ypos"          "9999"
         "zpos"          "-1"
-        "wide"          "64"
-        "tall"          "35"
+        "wide"          "252"
+        "tall"          "50"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -17,34 +31,35 @@
         "image"         "../hud/color_panel_brown"
         "scaleImage"        "1"
         "teambg_1"      "../hud/color_panel_brown"
-        "teambg_2"      "../hud/objectives_timepanel_red_bg"
-        "teambg_2_lodef"    "../hud/objectives_timepanel_red_bg"
-        "teambg_3"      "../hud/objectives_timepanel_blue_bg"
-        "teambg_3_lodef"    "../hud/objectives_timepanel_blue_bg"
+        "teambg_2"      "../hud/color_panel_red"
+        "teambg_2_lodef"    "../hud/color_panel_red"
+        "teambg_3"      "../hud/color_panel_blu"
+        "teambg_3_lodef"    "../hud/color_panel_blu"
+        
         "src_corner_height"     "23"                // pixels inside the image
         "src_corner_width"      "23"
             
-        "draw_corner_width"     "0"             // screen size of the corners ( and sides ), proportional
-        "draw_corner_height"    "0" 
+        "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
+        "draw_corner_height"    "5" 
     }
     "TargetIDBG_Spec_Blue"
     {
         "ControlName"       "ScalableImagePanel"
         "fieldName"     "TargetIDBG_Spec_Blue"
-        "xpos"                "0"               //3
-        "ypos"                "27"              //7
-        "zpos"                "-1"
-        "wide"                  "640"   //
-        "tall"                "2"           //24
+        "xpos"          "0"
+        "ypos"          "27"
+        "zpos"          "-1"
+        "wide"          "640"
+        "tall"          "25"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "0"
         "enabled"       "1"
-        "image"         "../hud/objectives_timepanel_blue_bg"
-        "image_lodef"   "../hud/objectives_timepanel_blue_bg"
+        "image"         "../hud/color_panel_blu"
+        "image_lodef"   "../hud/color_panel_blu"
         
-        "src_corner_height"     "3"             // pixels inside the image
-        "src_corner_width"      "23"
+        "src_corner_height"     "53"                // pixels inside the image
+        "src_corner_width"      "53"
             
         "draw_corner_width"     "0"             // screen size of the corners ( and sides ), proportional
         "draw_corner_height"    "0"
@@ -53,50 +68,36 @@
     {
         "ControlName"       "ScalableImagePanel"
         "fieldName"     "TargetIDBG_Spec_Red"
-        "xpos"                "0"               //3
-        "ypos"                "27"              //7
-        "zpos"                "-1"
-        "wide"                  "640"   //
-        "tall"                "2"           //24
+        "xpos"          "0"
+        "ypos"          "27"
+        "zpos"          "-1"
+        "wide"          "640"
+        "tall"          "25"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "0"
         "enabled"       "1"
-        "image"         "../hud/objectives_timepanel_red_bg"
-        "image_lodef"   "../hud/objectives_timepanel_red_bg"
+        "image"         "../hud/color_panel_red"
+        "image_lodef"   "../hud/color_panel_red"
         
-        "src_corner_height"     "3"             // pixels inside the image
-        "src_corner_width"      "23"
+        "src_corner_height"     "53"                // pixels inside the image
+        "src_corner_width"      "53"
             
         "draw_corner_width"     "0"             // screen size of the corners ( and sides ), proportional
         "draw_corner_height"    "0"
     }
     
-    "TargetBG"
- {
-    "ControlName"         "ImagePanel"
-    "fieldName"           "TargetBG"
-    "xpos"                "0"               //3
-    "ypos"                "10"              //7
-    "zpos"                "-1"
-        "wide"                  "640"   //
-    "tall"                "18"          //24
-    "visible"             "1"
-    "enabled"             "1"
-    "fillcolor"           "HUDDark"
-  }
-    
     "TargetNameLabel"
     {   
         "ControlName"       "CExLabel"
         "fieldName"     "TargetNameLabel"
-        "font"          "Cerbetica16"                //Medium12
-        "xpos"          "82"            //59
-        "ypos"          "6"     //
-        "zpos"          "2"
-        "wide"          "640"       //640
-        "tall"          "24"
+        "font"          "CerbeticaBold14"
         "fgcolor"       "Health Normal"
+        "xpos"          "35"
+        "ypos"          "13"
+        "zpos"          "1"
+        "wide"          "640"
+        "tall"          "14"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -105,38 +106,35 @@
         "textAlignment"     "west"
         "dulltext"      "0"
         "brighttext"        "0"
-
     }
     "TargetDataLabel"
     {   
         "ControlName"       "CExLabel"
         "fieldName"     "TargetDataLabel"
-        "font"          "CerbeticaBold16"
-        "xpos"          "82"            //59
-        "ypos"          "-5"        //15
-        "zpos"          "2"
-        "wide"          "340"
-        "tall"          "18"
+        "font"          "CerbeticaBold14"
+        "fgcolor"       "Health Buff"
+        "xpos"          "40"
+        "ypos"          "2"
+        "zpos"          "1"
+        "wide"          "640"
+        "tall"          "9"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%targetdata%"
-        "fgcolor"       "Health Buff"
-        "textAlignment"     "Left"
+        "textAlignment"     "west"
         "dulltext"      "0"
         "brighttext"        "0"
     }
-    
     "SpectatorGUIHealth"
     {
         "ControlName"       "EditablePanel"
         "fieldName"     "SpectatorGUIHealth"
-        "xpos"          "0"     //0
-        "ypos"          "2"
-        "zpos"          "5"
-        "wide"          "75"
-        "tall"          "36"
+        "xpos"          "0"
+        "ypos"          "4"
+        "wide"          "32"
+        "tall"          "32"
         "visible"       "1"
         "enabled"       "1" 
         "HealthBonusPosAdj" "10"
@@ -144,32 +142,32 @@
         "TFFont"        "HudFontSmall"
         "HealthDeathWarningColor"   "HUDDeathWarning"
         "TextColor"     "HudOffWhite"
-    }
-
+    }   
+    
     "AmmoIcon"
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "AmmoIcon"
-        "xpos"          "82"
-        "ypos"          "1"        //19
+        "xpos"          "39"
+        "ypos"          "3"
         "zpos"          "12"
         "wide"          "8"
         "tall"          "8"
-        "visible"       "1"
+        "visible"       "0"
         "enabled"       "1"
         "image"         "../hud/hud_obj_status_ammo_64"
         "scaleImage"    "1"
-    }   
+    }
     
     "MoveableSubPanel"
     {
         "ControlName"       "EditablePanel"
         "fieldName"     "MoveableSubPanel"
-        "xpos"          "0"
-        "ypos"          "-3"        //0
-        "zpos"          "11"
-        "wide"          "32" 
-        "tall"          "36" 
+        "xpos"          "9999" // omp -- fix glitch where this is visible in spectator view.
+        "ypos"          "9999"
+        "zpos"          "0"
+        "wide"          "32"
+        "tall"          "36"
         "visible"       "1"
         "enabled"       "1" 
         
@@ -177,13 +175,13 @@
         {
             "ControlName"   "CIconPanel"
             "fieldName"     "MoveableIconBG"
-            "xpos"          "0"
-            "ypos"          "0"
+            "xpos"          "9999"
+            "ypos"          "9999"
             "zpos"          "0"
             "wide"          "10"
             "tall"          "36"
-            "visible"       "0"
-            "enabled"       "0"
+            "visible"       "1"
+            "enabled"       "1"
             "icon"          "obj_status_alert_background_tall_nocolor"
             "iconColor"     "HudBlack"
             "scaleImage"    "1"
@@ -198,8 +196,8 @@
             "zpos"          "11"
             "wide"          "14"
             "tall"          "14"
-            "visible"       "0"
-            "enabled"       "0"
+            "visible"       "1"
+            "enabled"       "1"
             "icon"          "obj_status_sentrygun_1"
             "drawcolor"     "ProgressOffWhite"
             "scaleImage"    "1"
@@ -213,8 +211,8 @@
             "zpos"          "12"
             "wide"          "16"
             "tall"          "8"
-            "visible"       "0"
-            "enabled"       "0"
+            "visible"       "1"
+            "enabled"       "1"
             "image"         "../hud/eng_sel_item_movable"
             "drawcolor"     "ProgressOffWhite"
             "scaleImage"    "1"
@@ -224,14 +222,12 @@
         {   
             "ControlName"       "Label"
             "fieldName"     "MoveableKeyLabel"
-            "font"          "Medium10"
-            "fgcolor"       "White"
-            "TextColor"     "White"
-            "xpos"          "1"
-            "ypos"          "13"
+            "font"          "Futura9"
+            "xpos"          "0"
+            "ypos"          "27"
             "zpos"          "1"
             "wide"          "640"
-            "tall"          "26"
+            "tall"          "9"
             "autoResize"        "0"
             "pinCorner"     "0"
             "visible"       "1"

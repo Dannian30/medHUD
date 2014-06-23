@@ -5,9 +5,10 @@ Time Limit|Default
 Server Time|Default
 Health Cross|Default
 Background|Energy
-Target IDs|Plain
+Target IDs|Cross
 Killfeed|Default
 Chat|Upper
 Enemy Medic|True
 Über Bar|Crosshair
-Enemy Uber Bar|No
+Enemy Uber Bar|Yes
+Target ID|Cross
