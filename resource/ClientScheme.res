@@ -25,22 +25,25 @@ Scheme
     
         "Ammo In Clip"                          "235 226 202 255"
         "Ammo In Reserve"                       "150 150 150 255"
-        "Ammo In Clip Low"                      "255 40 29 255"
-        "Ammo In Reserve Low"                   "200 50 5 255"
+        "Ammo In Clip Low"                      "255 70 80 255"
+        "Ammo In Reserve Low"                   "210 60 70 255"
         
         //The two is for the flicker for buff/hurt. Make the two you choose be close in color.
         "Health Normal"                         "235 226 202 255"
-        "Health Buff"                           "0 180 255 255"
-        "Health Buff2"                          "0 255 255 255"
-        "Health Hurt"                           "255 40 29 255"
+        "Health Buff"                           "123 228 255 255"
+        "Health Buff2"                          "68 156 200 255"
+        "Health Hurt"                           "255 40 60 255"
         "Health Hurt2"                          "170 0 0 255"
         
         "Uber Bar Color"                        "235 226 202 255"
     
         "Heal Numbers"                          "100 200 100 255"
-        "Damage Numbers"                        "235 226 202 255"
-        "DamageAccount"                         "255 255 255 45"
+        "Damage Numbers"                        "255 220 100 255"
+        "DamageAccount"                         "255 220 100 45"
         "DamageAccountBG"                       "0 0 0 35"
+        
+        "Charge1"                               "255 220 100 255"
+        "Charge2"                               "220 220 150 255"
         
         "ScoreboardKills"                       "90 210 39 255" 
         "ScoreboardAssists"                     "255 255 0 255" 
@@ -3066,6 +3069,28 @@ Scheme
                 "antialias"  "1"
             }
         }
+        "CerbeticaBold38"
+        {
+            "1"
+            {
+                "name"       "Roboto Condensed Bold"
+                "tall"       "38"
+                "additive"   "0"
+                "antialias"  "1"
+            }
+        }
+
+        "CerbeticaBold40"
+        {
+            "1"
+            {
+                "name"       "Roboto Condensed Bold"
+                "tall"       "40"
+                "additive"   "0"
+                "antialias"  "1"
+            }
+        }
+
         "CerbeticaBold42"
         {
             "1"

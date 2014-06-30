@@ -17,8 +17,8 @@
     {
         "ControlName"   "CTFImagePanel"
         "fieldName"     "ItemEffectMeterBG"
-        "xpos"          "7"
-        "ypos"          "17"
+        "xpos"          "4"
+        "ypos"          "37"
         "zpos"          "0"
         "wide"          "15"
         "tall"          "15"
@@ -71,8 +71,8 @@
     {
         "ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterCount"
-        "xpos"                  "-24"
-        "ypos"                  "14"
+        "xpos"                  "-26"
+        "ypos"                  "34"
         "zpos"                  "2"
         "wide"                  "100"
         "tall"                  "20"    
@@ -90,8 +90,8 @@
     {
         "ControlName"           "CExLabel"
         "fieldName"             "ItemEffectMeterCount"
-        "xpos"                  "-23"
-        "ypos"                  "15"
+        "xpos"                  "-25"
+        "ypos"                  "35"
         "zpos"                  "1"
         "wide"                  "100"
         "tall"                  "20"    

@@ -35,7 +35,7 @@
         "textAlignment" "center"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "CerbeticaBold14"
+        "font"          "CerbeticaBold16"
         "fgcolor"       "Uber Bar Color"
     }
     "ChargeLabelShadow"
@@ -56,7 +56,7 @@
         "textAlignment" "center"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "CerbeticaBold14"
+        "font"          "CerbeticaBold16"
         "fgcolor"       "TransparentBlack"
     }
 
@@ -82,11 +82,11 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "IndividualChargesLabel"
-        "xpos"          "c-7"
+        "xpos"          "c-10"
         "ypos"          "0"
         "zpos"          "4"
-        "wide"          "15"
-        "tall"          "18"
+        "wide"          "21"
+        "tall"          "13"
         "autoResize"    "1"
         "pinCorner"     "2"
         "visible"       "1"

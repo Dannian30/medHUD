@@ -6,7 +6,7 @@ Window();
 [Border:1, BG:#DDDDDD, FG:#000000]
 Banner("medHUD.png", auto, normal);
 
-[Name:Background, Default:Energy]
+[Name:Background, Default:Purple]
 GlobalComboBox("Background", "Background")
 {
     Purple
@@ -32,47 +32,28 @@ GlobalComboBox("Background", "Background")
 [Name:Target ID, Default:Cross]
 GlobalComboBox("Target ID", "Target ID")
 {
-		Plain
-		Cross
-		Goat
+        Plain
+        Cross
+        Goat
 }
 
 #if Target ID == "Plain"
 {
     Copy("resource\ui\TargetID - Plain.res", "resource\ui\TargetID.res");
-	Copy("resource\ui\SpectatorGUIHealth - Plain.res", "resource\ui\SpectatorGUIHealth.res");
+    Copy("resource\ui\SpectatorGUIHealth - Plain.res", "resource\ui\SpectatorGUIHealth.res");
 } 
 
 #if Target ID == "Cross"
 {
     Copy("resource\ui\TargetID - Cross.res", "resource\ui\TargetID.res");
-	Copy("resource\ui\SpectatorGUIHealth - Cross.res", "resource\ui\SpectatorGUIHealth.res");
+    Copy("resource\ui\SpectatorGUIHealth - Cross.res", "resource\ui\SpectatorGUIHealth.res");
 }   
 
 #if Target ID == "Goat"
 {
     Copy("resource\ui\TargetID - Goat.res", "resource\ui\TargetID.res");
-	Copy("resource\ui\SpectatorGUIHealth - Goat.res", "resource\ui\SpectatorGUIHealth.res");
+    Copy("resource\ui\SpectatorGUIHealth - Goat.res", "resource\ui\SpectatorGUIHealth.res");
 }   
-
-[Name:Enemy Uber Bar, Default:No Bar]
-GlobalComboBox("Enemy Uber Bar", "Enemy Uber Bar")
-{
-		Yes
-		No
-}
-
-#if Enemy Uber Bar == "Enemy Uber Bar"
-{
-    Copy("scripts\hudlayout - Enemy Uber Bar.res", "scripts\hudlayout.res");
-    Copy("scripts\HudAnimations_tf - Enemy Uber Bar.txt", "scripts\HudAnimations_tf.txt");
-}   
-    
-#if Enemy Uber Bar == "No Bar"
-{
-    Copy("scripts\hudlayout.res - No Bar", "scripts\hudlayout.res");
-    Copy("scripts\HudAnimations_tf - No Bar.txt", "scripts\HudAnimations_tf.txt"");
-}
 
 [Portion:2]
 [Name:Chat, Default:Upper]
@@ -83,7 +64,7 @@ DynamicFileSwitcher("resource\ui\BaseChat.res", "Chat");
 DynamicFileSwitcher("resource\ui\ScoreBoard.res", "Scoreboard", 1);
 
 [Portion:1]
-[Name:Über Bar, Default:Crosshair]
+[Name:Über Bar, Default:No Bar]
 DynamicFileSwitcher("resource\ui\HudMedicCharge.res", "Über Bar", 1);
 
 [Portion:2]

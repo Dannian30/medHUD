@@ -1,5 +1,21 @@
 
-CURRENT VERSION: v14
+CURRENT VERSION: v16
+
+v16 - now legal in 31 states!
+-Gave the HUD breathing room; not as cluttered, more spaced out
+-Reverted the Zim points to normal position
+-Softened color scheme
+-Removed black bounding boxes in Spec UI
+-No Uber bar is default
+-Minimal scoreboard is default
+-Removed enemy Uber bar
+
+v15 - volvo use the beta pls
+-Redid TargetIDs
+-Reimplemented Zim's control point icons, positioned them similarly to Smaka's
+-Added damage to pub scoreboard
+-Added Parachute icon
+-Cross TargetID is now default
 
 v14  - med took 19
 -Fixed HUD for Love & War Update

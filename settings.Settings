@@ -1,14 +1,14 @@
-Scoreboard|Pub
+Scoreboard|Minimal
 Uber Bar|Crosshair
 Damage Lines|Yes Damage Lines
 Time Limit|Default
 Server Time|Default
 Health Cross|Default
-Background|Energy
+Background|Purple
 Target IDs|Cross
 Killfeed|Default
 Chat|Upper
 Enemy Medic|True
-Über Bar|Crosshair
-Enemy Uber Bar|Yes
+Über Bar|No Bar
+Enemy Uber Bar|No
 Target ID|Cross

@@ -405,24 +405,24 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-    Animate PlayerStatusHealthBonusImage    Alpha       "255"       Linear 0.0 0.2
-    Animate PlayerStatusHealthBonusImage    Alpha       "0"         Linear 0.2 0.4
+    Animate PlayerStatusHealthBonusImage         Alpha       "255"              Linear 0.0 0.2
+    Animate PlayerStatusHealthBonusImage         Alpha       "0"                Linear 0.2 0.4
     
-    Animate PlayerStatusHealthValue            FgColor "Health Buff" Linear 0.0 0.0
-    Animate PlayerStatusHealthValue            FgColor "Health Buff2" Linear 0.035 0.0
+    Animate PlayerStatusHealthValue              FgColor     "Health Buff"      Linear 0.0 0.1
+    Animate PlayerStatusHealthValue              FgColor     "Health Buff2"     Linear 0.3 0.4
 
-    Animate PlayerStatusHealthValueSpectator   FgColor "HUDDark"     Linear 0.0 0.0
-    Animate PlayerStatusHealthValueSpectator   FgColor "ColorBlack"     Linear 0.035 0.0
-    Animate PlayerStatusHealthValueID          FgColor "HUDDark"     Linear 0.0 0.0
-    Animate PlayerStatusHealthValueID          FgColor "ColorBlack"     Linear 0.035 0.0
+    Animate PlayerStatusHealthValueSpectator     FgColor     "ColorBlack"       Linear 0.0 0.1
+    Animate PlayerStatusHealthValueSpectator     FgColor     "HUDDark"          Linear 0.3 0.4
+    Animate PlayerStatusHealthValueID            FgColor     "ColorBlack"       Linear 0.0 0.1
+    Animate PlayerStatusHealthValueID            FgColor     "HUDDark"          Linear 0.3 0.4
 
-    Animate PlayerStatusHealthValueSpectator   BgColor "Health Buff" Linear 0.0 0.0
-    Animate PlayerStatusHealthValueSpectator   BgColor "Health Buff2" Linear 0.035 0.0
-    Animate PlayerStatusHealthValueID          BgColor "Health Buff" Linear 0.0 0.0
-    Animate PlayerStatusHealthValueID          BgColor "Health Buff2" Linear 0.035 0.0
+    Animate PlayerStatusHealthValueSpectator     BgColor     "Health Buff"      Linear 0.0 0.1
+    Animate PlayerStatusHealthValueSpectator     BgColor     "Health Buff2"     Linear 0.3 0.4
+    Animate PlayerStatusHealthValueID            BgColor     "Health Buff"      Linear 0.0 0.1
+    Animate PlayerStatusHealthValueID            BgColor     "Health Buff2"     Linear 0.3 0.4
+    
 
-
-    RunEvent HudHealthBonusPulseLoop    0.15
+    RunEvent HudHealthBonusPulseLoop    0.6
 }
 
 // call to loop HudHealthBonusPulse
@@ -454,7 +454,7 @@ event HudHealthDyingPulse
     Animate PlayerStatusHealthBonusImage    Alpha       "235"           Linear 0.006 0.30
     
     Animate PlayerStatusHealthValue            FgColor "Health Hurt" Linear 0.0 0.0
-    Animate PlayerStatusHealthValue            FgColor "170 0 0 255" Linear 0.035 0.0
+    Animate PlayerStatusHealthValue            FgColor "Health Hurt2" Linear 0.035 0.0
 
     Animate PlayerStatusHealthValueSpectator   FgColor "Health Normal"     Linear 0.0 0.0
     Animate PlayerStatusHealthValueSpectator   FgColor "ColorGreyLight"     Linear 0.035 0.0
@@ -672,15 +672,14 @@ event HudTournamentSetupPanelClose
 event HudMedicCharged
 {
 
-///////Rainbow Charge
-    Animate ChargeLabel     FgColor     "ColorRed"        Linear 0.0 0.0
-    Animate ChargeLabel     FgColor     "ColorVermillion"       Linear 0.035 0.0
-    Animate ChargeLabel     FgColor     "ColorOrange"       Linear 0.7 0.0
-    Animate ChargeLabel     FgColor     "ColorOrange"          Linear 0.105 0.0
-    Animate ChargeLabel     FgColor     "ColorVermillion"          Linear 0.140 0.0
-    Animate ChargeMeter     FgColor     "255 0 0 255"           Linear 0.0 0.0
-    Animate ChargeMeter     FgColor     "150 0 0 255"           Linear 0.035 0.0    
-    RunEvent HudMedicChargedLoop    0.14
+
+    Animate ChargeLabel     FgColor     "TanLight"      Linear 0.0 0.1
+    Animate ChargeLabel     FgColor     "TanDarker"     Linear 0.3 0.4
+    
+    Animate ChargeMeter     FgColor     "TanLight"      Linear 0.0 0.1
+    Animate ChargeMeter     FgColor     "TanDarker"     Linear 0.3 0.4
+
+    RunEvent HudMedicChargedLoop    0.6
     
 
 }
