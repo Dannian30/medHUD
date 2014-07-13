@@ -137,8 +137,8 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicDot"
-        "visible"       "1"
-        "enabled"       "1"
+        "visible"       "0"
+        "enabled"       "0"
         "zpos"          "-2"
 
         "xpos"          "c-107"
@@ -157,8 +157,8 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicDotOut"
-        "visible"       "1"
-        "enabled"       "1"
+        "visible"       "0"
+        "enabled"       "0"
         "zpos"          "-2"
 
         "xpos"          "c-107"
