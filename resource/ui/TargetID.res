@@ -122,7 +122,7 @@
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%targetdata%"
-        "fgcolor"       "Health Buff"
+        "fgcolor"       "ColorLime"
         "textAlignment"     "Left"
         "dulltext"      "0"
         "brighttext"        "0"

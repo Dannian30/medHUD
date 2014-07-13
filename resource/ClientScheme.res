@@ -36,14 +36,13 @@ Scheme
         "Health Hurt2"                          "170 0 0 255"
         
         "Uber Bar Color"                        "235 226 202 255"
+        "Charge Flash"                          "46 43 42 255"
+        "Uber Ready Panel"                      "46 43 42 255"
     
         "Heal Numbers"                          "100 200 100 255"
         "Damage Numbers"                        "255 220 100 255"
         "DamageAccount"                         "255 220 100 45"
         "DamageAccountBG"                       "0 0 0 35"
-        
-        "Charge1"                               "255 220 100 255"
-        "Charge2"                               "220 220 150 255"
         
         "ScoreboardKills"                       "90 210 39 255" 
         "ScoreboardAssists"                     "255 255 0 255" 
@@ -55,7 +54,7 @@ Scheme
         "Base Color Dark"           "90 35 120 255"
         "Button Color"              "155 35 155 255"    
         
-        "Inactive Tab"              "Base Color Dark"    
+        "Inactive Tab"              "90 35 120 255"    
     
         //HUD Colors
         
@@ -2540,6 +2539,278 @@ Scheme
             "tall"          "40"
             "weight"        "0"
             "antialias"     "1"
+            }
+        }
+               /////////////////////
+        //Shapes and Symbols
+        
+        "Icon62"        //
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "62"
+                "additive"    "0"
+                "weight"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon58"        //
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "58"
+                "additive"    "0"
+                "weight"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon54"        //
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "54"
+                "additive"    "0"
+                "weight"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon50"        //
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "50"
+                "additive"    "0"
+                "weight"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon48"        //BG for sb, tourny and win
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "46"
+                "additive"    "0"
+                "weight"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon30"        //Main menu icons
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "30"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon28"        //Main menu icons
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "28"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon26"        //Main menu icons
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "26"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon24"        //Main menu icons
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "24"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon22"        //Main menu icons
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "22"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon20"        //Main menu icons
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "20"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon18"        //Class and team menu
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "18"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon16"        //Class and team menu
+        {
+            "1"
+            {
+                "name"            "Icons"
+                "tall"        "16"
+                "additive"    "0"
+                "antialias"     "1"
+            }
+        }
+        "Icon14"        //used for spectator interface
+        {
+            "1"
+            {
+                "name"        "Icons"
+                "tall"        "14"
+                "additive"        "0"
+                "antialias"    "1"
+            }
+        }
+        
+        "BackpackS"     //Backpack icons
+        {
+            "1"
+            {
+                "name"            "Backpack"
+                "tall"          "25"
+                "additive"      "0"
+                "antialias"     "1"
+            }
+        }
+        "Shapes64"
+        {
+            "1"
+            {
+                "name"        "Blocks"
+                "tall"        "64"
+                "additive"    "0"
+                "antialias" "0"
+            }
+        }
+        
+        "yahud58"       //Used for class icons
+        {
+            "1"
+            {
+                "name"        "yahud"
+                "tall"        "58"
+                "additive"    "0"
+                "antialias"    "1"
+            }
+        }
+        "yahud36"       //Used for tournament setup
+        {
+            "1"
+            {
+                "name"        "yahud"
+                "tall"        "36"
+                "additive"    "0"
+                "antialias"    "1"
+            }
+        }
+        
+       "Respawn20"       
+        {
+            "1"
+            {
+                "name"        "RespawnFont"
+                "tall"        "20"
+                "additive"    "0"
+                "antialias"    "1"
+            }
+        }
+        
+        "Circle62"              //for team selection and tournament ready up
+        {
+            "1"
+            {
+                "name"        "SmallCircle"
+                "tall"        "62"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "Circle42"          //used for winpanel
+        {
+            "1"
+            {
+                "name"        "SmallCircle"
+                "tall"        "42"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "Circle38"    //for ctf counter
+        {
+            "1"
+            {
+                "name"        "SmallCircle"
+                "tall"        "38"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "Circle36"    //for ctf counter
+        {
+            "1"
+            {
+                "name"        "SmallCircle"
+                "tall"        "36"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "Circle34"    //for ctf counter
+        {
+            "1"
+            {
+                "name"        "SmallCircle"
+                "tall"        "34"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "Circle30"    //for game menu shortcuts
+        {
+            "1"
+            {
+                "name"        "SmallCircle"
+                "tall"        "30"
+                "weight"    "0"
+                "antialias"    "1"
+            }
+        }
+        "Circle24"          //for shortcuts and class counters
+        {
+            "1"
+            {
+                "name"        "SmallCircle"
+                "tall"        "24"
+                "weight"    "0"
+                "antialias"    "1"
             }
         }
         
@@ -5526,6 +5797,31 @@ Scheme
         {
             "font" "resource/font/modernpics.otf"
             "name" "ModernPictograms"
+        }
+        "17"
+        {
+            "font" "resource/font/RespawnFont.otf"
+            "name" "RespawnFont"
+        }
+        "18"
+        {
+            "font" "resource/font/Backpack.otf"
+            "name" "Backpack"
+        }
+        "19"
+        {
+            "font" "resource/font/Icons.otf"
+            "name" "Icons"
+        }
+        "20" 
+        {
+            "font" "resource/font/symbol.ttf"
+            "name" "symbol"
+        }
+        "21" 
+        {
+            "font" "resource/font/SmallCircle.ttf"
+            "name" "SmallCircle"
         }
 }
 

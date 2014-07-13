@@ -669,35 +669,58 @@ event HudTournamentSetupPanelClose
 
 // Flash the medic charge hud when we have full charge
 
-event HudMedicCharged
+event UberchargeBg
 {
-
-
-    Animate ChargeLabel     FgColor     "TanLight"      Linear 0.0 0.1
-    Animate ChargeLabel     FgColor     "TanDarker"     Linear 0.3 0.4
-    
-    Animate ChargeMeter     FgColor     "TanLight"      Linear 0.0 0.1
-    Animate ChargeMeter     FgColor     "TanDarker"     Linear 0.3 0.4
-
-    RunEvent HudMedicChargedLoop    0.6
-    
-
+    Animate UberchargeReady    bgcolor     "Uber Ready Panel"        Linear 0.0 0.3
+    Animate UberchargeReady    bgcolor     "0 0 0 0"       Linear 1.0 0.3
 }
 
+event HudMedicChargedBlink
+{
+    Animate ChargeMeter             FgColor     "Uber Bar Color"       Linear 0.0 0.45
+    Animate ChargeMeter             FgColor     "Charge Flash"        Linear 0.45 0.45
+    
+    Animate ChargeMeter1            FgColor     "Uber Bar Color"       Linear 0.0 0.2
+    Animate ChargeMeter2            FgColor     "Uber Bar Color"       Linear 0.1 0.2
+    Animate ChargeMeter3            FgColor     "Uber Bar Color"       Linear 0.2 0.2
+    Animate ChargeMeter4            FgColor     "Uber Bar Color"       Linear 0.3 0.2
+    Animate ChargeMeter1            FgColor     "Charge Flash"        Linear 0.4 0.2
+    Animate ChargeMeter2            FgColor     "Charge Flash"        Linear 0.5 0.2
+    Animate ChargeMeter3            FgColor     "Charge Flash"        Linear 0.6 0.2
+    Animate ChargeMeter4            FgColor     "Charge Flash"        Linear 0.7 0.2
+    
+    Animate ChargeLabel             FgColor     "Uber Bar Color"        Linear 0.0 0.45
+    Animate ChargeLabel             FgColor     "Charge Flash"        Linear 0.45 0.45
+
+    RunEvent HudMedicChargedLoop    0.9
+}
+
+event HudMedicCharged
+{
+    RunEvent UberchargeBg               0.0
+    RunEvent HudMedicChargedBlink       0.0
+}
+
+// call to loop HudHealthBonusPulse
 event HudMedicChargedLoop
 {
-    RunEvent HudMedicCharged 0.0
+    RunEvent HudMedicChargedBlink 0.0
 }
 
 event HudMedicChargedStop
 {
     StopEvent HudMedicCharged 0.0
     StopEvent HudMedicChargedLoop 0.0
-    
-    Animate ChargeLabel     FgColor     "Uber Bar Color"       Linear 0.0 0.0001
-    Animate ChargeMeter     FgColor     "Uber Bar Color"       Linear 0.0 0.0001
-    
+    StopEvent HudMedicChargedBlink 0.0
+
+    Animate ChargeLabel             FgColor     "Uber Bar Color"        Linear 0.0 0.45
+    Animate ChargeMeter             FgColor     "Uber Bar Color"       Linear 0.0 0.45
+    Animate ChargeMeter1            FgColor     "Uber Bar Color"       Linear 0.0 0.2
+    Animate ChargeMeter2            FgColor     "Uber Bar Color"       Linear 0.0 0.2
+    Animate ChargeMeter3            FgColor     "Uber Bar Color"       Linear 0.0 0.2
+    Animate ChargeMeter4            FgColor     "Uber Bar Color"       Linear 0.0 0.2
 }
+
 
 
 //====================================

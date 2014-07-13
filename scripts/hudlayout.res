@@ -137,8 +137,8 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicDot"
-        "visible"       "0"
-        "enabled"       "0"
+        "visible"       "1"
+        "enabled"       "1"
         "zpos"          "-2"
 
         "xpos"          "c-107"
@@ -157,8 +157,8 @@
     {
         "controlName"   "CExLabel"
         "fieldName"     "BasicDotOut"
-        "visible"       "0"
-        "enabled"       "0"
+        "visible"       "1"
+        "enabled"       "1"
         "zpos"          "-2"
 
         "xpos"          "c-107"
@@ -903,13 +903,13 @@
     
     HudMedicCharge
     {
-        "fieldName"     "HudMedicCharge"
-        "visible"       "1"
-        "enabled"       "1"
-        "xpos"          "0" 
-        "ypos"          "r234"   
-        "wide"          "f0"
-        "tall"          "f0"
+        "fieldName" "HudMedicCharge"
+        "visible" "1"
+        "enabled" "1"
+        "xpos" "c-20" 
+        "ypos" "c10"
+        "wide" "f0"
+        "tall" "480"
     }
     
     HudDemomanCharge

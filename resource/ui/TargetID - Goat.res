@@ -112,7 +112,7 @@
         "ControlName"       "CExLabel"
         "fieldName"     "TargetDataLabel"
         "font"          "CerbeticaBold14"
-        "fgcolor"       "Health Buff"
+        "fgcolor"       "ColorLime"
         "xpos"          "40"
         "ypos"          "2"
         "zpos"          "1"

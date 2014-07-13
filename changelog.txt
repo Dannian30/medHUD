@@ -1,6 +1,13 @@
 
-CURRENT VERSION: v16
+CURRENT VERSION: v17
 
+v17 - Tanzkönigin
+-Redid Uber with Bar/No bar, inspired from ToonHUD
+-Winpanel matches rest of HUD and has highest killstreak
+-Made smaller CP points
+-Centered bottom Timer in small 16:10 resolutions
+-Removed support of enemy Uber Bar
+ 
 v16 - now legal in 31 states!
 -Gave the HUD breathing room; not as cluttered, more spaced out
 -Reverted the Zim points to normal position
