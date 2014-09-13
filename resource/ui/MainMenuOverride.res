@@ -162,7 +162,7 @@
         "visible"       "1"
         "enabled"       "1"
         "scaleImage"    "1"
-        "fillcolor"     "25 25 25 255"
+        "fillcolor"     "0 0 0 175"
     }
     "SidePanelLeftStripe"
     {
@@ -1639,7 +1639,7 @@
             "use_proportional_insets" "1"
             "font"          "CerbeticaBold8"
             "textAlignment" "center"
-            "labelText"     "July 12"
+            "labelText"     "September 12"
             "dulltext"      "0"
             "brighttext"    "0"
             "default"       "1"
@@ -1701,7 +1701,7 @@
             "use_proportional_insets" "1"
             "font"          "CerbeticaBold12"
             "textAlignment" "center"
-            "labelText"     "v17: Tanzkönigin"
+            "labelText"     "v18: xXxSexyNoidxXx"
             "dulltext"      "0"
             "brighttext"    "0"
             "default"       "1"

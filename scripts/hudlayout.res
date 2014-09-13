@@ -151,7 +151,7 @@
         "labelText"     "3"
         "textAlignment" "center"    
         
-        "fgcolor"       "0 0 0 255"
+        "fgcolor"       "0 0 0 0"
     }
     BasicDotOut
     {

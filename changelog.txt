@@ -1,5 +1,13 @@
 
-CURRENT VERSION: v17
+CURRENT VERSION: v18
+
+v18- xXxSexyNoidxXx
+-New loadout menu. whoa.
+-Uber % way more visible
+-Practical taunt menu (you aren't blind when you use it)
+-Damage numbers outlined and last in the air for 20% less time
+-Will probably be broken next update. shoutout to valve
+[/list]
 
 v17 - Tanzkönigin
 -Redid Uber with Bar/No bar, inspired from ToonHUD
@@ -7,7 +15,7 @@ v17 - Tanzkönigin
 -Made smaller CP points
 -Centered bottom Timer in small 16:10 resolutions
 -Removed support of enemy Uber Bar
- 
+
 v16 - now legal in 31 states!
 -Gave the HUD breathing room; not as cluttered, more spaced out
 -Reverted the Zim points to normal position

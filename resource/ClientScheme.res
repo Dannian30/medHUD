@@ -50,11 +50,11 @@ Scheme
         "ScoreboardHealing"                     "0 255 255 255" 
         
         //Menu/Color scheme colors
-        "Base Color"                "115 35 155 255"
-        "Base Color Dark"           "90 35 120 255"
+        "Base Color"                "25 25 25 255"
+        "Base Color Dark"           "25 25 25 255"
         "Button Color"              "155 35 155 255"    
         
-        "Inactive Tab"              "90 35 120 255"    
+        "Inactive Tab"              "25 25 25 255"    
     
         //HUD Colors
         
@@ -259,9 +259,9 @@ Scheme
         Econ.Button.DepressedBgColor                        "25 25 25 255"
         Econ.Button.DepressedFgColor                        "TanDark"
         
-        Econ.Button.PresetDefaultColorFg                    "Base Color"
-        Econ.Button.PresetArmedColorFg                      "Base Color"
-        Econ.Button.PresetDepressedColorFg                  "Base Color"
+        Econ.Button.PresetDefaultColorFg                    "TanLight"
+        Econ.Button.PresetArmedColorFg                      "TanLight"
+        Econ.Button.PresetDepressedColorFg                  "TanDark"
         
         Econ.Button.PresetDefaultColorBg                    "25 25 25 255"
         Econ.Button.PresetArmedColorBg                      "50 50 50 255"

@@ -9,9 +9,9 @@
         "NegativeColor"         "Damage Numbers"
         "delta_item_x"          "0"
         "delta_item_end_y"      "0"
-        "delta_lifetime"        "5"
-        "delta_item_font"       "CerbeticaBold24" 
-        "delta_item_font_big"   "CerbeticaBold24"
+        "delta_lifetime"        "4"
+        "delta_item_font"       "CerbeticaBoldOutline24" 
+        "delta_item_font_big"   "CerbeticaBoldOutline24"
         "outline"               "1"
 
     }

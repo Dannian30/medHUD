@@ -14,9 +14,9 @@
         "tabPosition"   "0"
         "settitlebarvisible"    "0"
         "PaintBackgroundType"   "0"
-        "bgcolor_override"  "25 25 25 255"
-        "infocus_bgcolor_override" "25 25 25 255"
-        "outoffocus_bgcolor_override" "25 25 25 255"
+        "bgcolor_override"  "35 35 35 255"
+        "infocus_bgcolor_override" "35 35 35 255"
+        "outoffocus_bgcolor_override" "35 35 35 255"
         
         "item_xpos_offcenter_a" "-310"
         "item_xpos_offcenter_b" "165"
@@ -363,9 +363,9 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
         
-        "defaultBgColor_override"   "25 25 25 255"
+        "defaultBgColor_override"   "35 35 35 255"
         "armedBgColor_override"     "35 35 35 255"
-        "depressedBgColor_override" "25 25 25 255"
+        "depressedBgColor_override" "35 35 35 255"
         
         "defaultFgColor_override"   "TanLight"
         "armedFgColor_override"     "TanLight"
@@ -419,9 +419,9 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
         
-        "defaultBgColor_override"   "25 25 25 255"
+        "defaultBgColor_override"   "35 35 35 255"
         "armedBgColor_override"     "35 35 35 255"
-        "depressedBgColor_override" "25 25 25 255"
+        "depressedBgColor_override" "35 35 35 255"
         
         "defaultFgColor_override"   "TanLight"
         "armedFgColor_override"     "TanLight"
@@ -502,9 +502,9 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
                 
-        "defaultBgColor_override"   "25 25 25 255"
+        "defaultBgColor_override"   "35 35 35 255"
         "armedBgColor_override"     "35 35 35 255"
-        "depressedBgColor_override" "25 25 25 255"
+        "depressedBgColor_override" "35 35 35 255"
         
         "defaultFgColor_override"   "TanLight"
         "armedFgColor_override"     "TanLight"
@@ -539,9 +539,9 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
         
-        "defaultBgColor_override"   "25 25 25 255"
+        "defaultBgColor_override"   "35 35 35 255"
         "armedBgColor_override"     "35 35 35 255"
-        "depressedBgColor_override" "25 25 25 255"
+        "depressedBgColor_override" "35 35 35 255"
         
         "defaultFgColor_override"   "TanLight"
         "armedFgColor_override"     "TanLight"
@@ -575,9 +575,9 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
         
-        "defaultBgColor_override"   "25 25 25 255"
+        "defaultBgColor_override"   "35 35 35 255"
         "armedBgColor_override"     "35 35 35 255"
-        "depressedBgColor_override" "25 25 25 255"
+        "depressedBgColor_override" "35 35 35 255"
         
         "defaultFgColor_override"   "TanLight"
         "armedFgColor_override"     "TanLight"
@@ -611,9 +611,9 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
         
-        "defaultBgColor_override"   "25 25 25 255"
+        "defaultBgColor_override"   "35 35 35 255"
         "armedBgColor_override"     "35 35 35 255"
-        "depressedBgColor_override" "25 25 25 255"
+        "depressedBgColor_override" "35 35 35 255"
         
         "defaultFgColor_override"   "TanLight"
         "armedFgColor_override"     "TanLight"
@@ -647,9 +647,9 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
         
-        "defaultBgColor_override"   "25 25 25 255"
+        "defaultBgColor_override"   "35 35 35 255"
         "armedBgColor_override"     "35 35 35 255"
-        "depressedBgColor_override" "25 25 25 255"
+        "depressedBgColor_override" "35 35 35 255"
         
         "defaultFgColor_override"   "TanLight"
         "armedFgColor_override"     "TanLight"
@@ -683,9 +683,9 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
         
-        "defaultBgColor_override"   "25 25 25 255"
+        "defaultBgColor_override"   "35 35 35 255"
         "armedBgColor_override"     "35 35 35 255"
-        "depressedBgColor_override" "25 25 25 255"
+        "depressedBgColor_override" "35 35 35 255"
         
         "defaultFgColor_override"   "TanLight"
         "armedFgColor_override"     "TanLight"
